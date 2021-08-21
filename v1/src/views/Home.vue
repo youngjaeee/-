@@ -161,7 +161,8 @@
     </div>
     </div>
   </div>
-<div>
+  <br>
+<div class="homebanner">
   <img src="../assets/homebanner.png">
 </div>
 </div>
@@ -385,6 +386,15 @@ export default {
   width: 9em;
   background-color: rgb(0, 153, 224);
   height: 11.3em;
+}
+
+.homebanner {
+  margin-top: 25em;
+  width: 100%
+}
+
+.homebanner img {
+  width: 72%
 }
 
 
