@@ -1,4 +1,5 @@
 <template>
+<div>
 <div class="top-menu">
   <div class = "userinfo">
    <router-link id = "login" to="/about">로그인</router-link> &nbsp; &nbsp; &nbsp; &nbsp;
@@ -46,7 +47,7 @@
     </div>
 
     </div>
-
+</div>
 </template>
 
 
@@ -143,7 +144,7 @@ color: black;
   width: 100%;
   height: 10em;
   background-color: rgb(77, 77, 77);
-  margin-top: 25em;
+  margin-top: 5em;
 }
 
 .footer a {

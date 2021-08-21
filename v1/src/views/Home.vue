@@ -1,4 +1,5 @@
 <template>
+<div>
   <div class="image-slide">
          <ul>
              <li>
@@ -93,8 +94,6 @@
       </div>
   </div>
 
-
-
     <div class="home-press">
     <div>
       <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;보도자료
@@ -161,10 +160,11 @@
       </a>
     </div>
     </div>
-
   </div>
-
-
+<div>
+  <img src="../assets/homebanner.png">
+</div>
+</div>
 </template>
 
 <script>
