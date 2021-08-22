@@ -211,10 +211,18 @@ export default {
   margin-top: 1em;
   margin-bottom: 1em;
   border: 1px solid gray;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.home-menu ul {
+  padding : 0;
+  margin: 1px;
 }
 
 .hmselect {
-  width: 9.3em;
+  width: 9.98em;
+  padding-top: 1em;
   margin: 0;
   float: left;
 }

@@ -92,8 +92,8 @@ color: black;
   padding-bottom: 4px;
   border-radius: 3px;
   border-width: 2px;;
-  border-color: rgb(0, 183, 255);
-  color: rgb(0, 183, 255);
+  border-color: rgb(0, 110, 255);
+  color: rgb(0, 110, 255);
   font-size: 1em;
 }
 

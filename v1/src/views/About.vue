@@ -6,9 +6,9 @@
       <div class="amtitle">
        <p>사업소개 </p>
      </div>
-        <a href="https://sw7up.cbnu.ac.kr/organization/greetings">
-            <p id="greeting">인사말</p>
-            </a>
+        <router-link to="/about">
+            <p id="menu-selected">인사말</p>
+            </router-link> 
   <hr>
         <a href="https://sw7up.cbnu.ac.kr/organization/objective">
             <p>사업목표</p>
@@ -26,9 +26,9 @@
             <p>교육시설</p>
             </a>
   <hr>
-        <a href="https://sw7up.cbnu.ac.kr/organization/location">
+        <router-link to="/location">
             <p>오시는 길</p>
-            </a>
+            </router-link> 
   </div>
       </figure>
  <br>
@@ -84,7 +84,7 @@
   width: 13em;
   height: 30.5em;
   position: absolute;
-  bottom: 14em;
+  top: 200px;
   left : 12em;
   border: 1px solid gray;
   background-color: white;
@@ -178,6 +178,19 @@ hr {
 
 #representative {
   text-align: right;
+}
+
+#menu-selected {
+  text-decoration: none;
+  text-align: left;
+  padding-left: 1em;
+  font-size: 18px;
+  margin: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  color: white;
+  background-color: rgb(29, 70, 151);
+  font-weight: bolder;
 }
 
 * {
