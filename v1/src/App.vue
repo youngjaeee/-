@@ -2,7 +2,7 @@
 <div>
 <div class="top-menu">
   <div class = "userinfo">
-   <router-link id = "login" to="/about">로그인</router-link> &nbsp; &nbsp; &nbsp; &nbsp;
+   <router-link id = "login" to="/login">로그인</router-link> &nbsp; &nbsp; &nbsp; &nbsp;
    <router-link id = "register" to="/about">회원가입</router-link> 
 </div>
 <br>
